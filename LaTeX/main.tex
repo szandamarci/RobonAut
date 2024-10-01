@@ -1,5 +1,5 @@
 \documentclass{article}
-
+\usepackage{float}
 % Language setting
 % Replace `english' with e.g. `spanish' to change the document language
 \usepackage[english]{babel}
@@ -125,6 +125,22 @@ Igazából az alap ötletem az volt, hogy lehetne egy Q1 logó digital clock st�
 \includegraphics[width=0.25\linewidth]{korondiP.jpg}
 \caption{\label{fig:korondi}This Korondi was uploaded via Debreceni Egyetem.}
 \end{figure}
+
+\subsection{Infravörös távolság szenzor lookup table}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{IR_distance_characteristics.png}
+    \caption{\label{fig:korondi}IR sensor characteristics}
+\end{figure}
+A görbét lineáris interpolációval közelítve pyton-ban:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{Interp.png}
+    \caption{\label{fig:korondi}IR sensor characteristics}
+\end{figure}
+
+
 
 \subsection{How to add Citations and a References List}
 
