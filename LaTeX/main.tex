@@ -77,9 +77,35 @@ Prio: Q1-re a három szabályozási körnek biztosnak kell lennie
 
 Kompetenciákat fel kell osztani:
 \begin{itemize}
-\item Dávid - szabályozási kör: beavatkozás meg mérés, 2 db PWM -> leprogramozni, kimenetet oszcilloszkóppal mérni, eltolt módszer; szervókat be kell hangolni, 1,5 ms-osat ráadni és utána pici lépésenként beállítani a középállást meg a végállásokat, minden szétszedés és összerakás után meg kell csinálni; figyelni a cutoffra; impulzus hosszba kódolt rcp alapjel, ez egy üzenetformátum, NEM PWM1
-\item Marci - státuszinformációk vétele az autóról -> kliensoldali alkalmazás hozzá (pl: Python,.json,.yaml (FONTOS)); parancsértelmező alkalmazás írása STM32-re, paraméterek állítása c-ben (FONTOS); mikrokontroller: szenzorokból adatokat kinyerni, amíg nincs NYÁK a programozáshoz, nucleora rákötni őket, kinyerni a  nyers adatokat, perifériák élesztése
-\item Virág - pontos legyen, hamar kell, PCB tervek: 2 db vonalszenzor, 4db táv szenzor,(megtervezni nem kell), hátsó kerék kormányzás meggondolandó, motor meghajtó kártya (megtervezni nem kell), központi modul, amire a nucleo, rádiós modul, vonalszenzorok bekötése meg, kommunikáció: vagy a raspberrys (figyelembe menni választani) debuggeres cucc vagy pedig a legegyszerűbb megoldás (Bluethoot 3.0 chip) -> pros vs cons, rákeresni, kijelző vagy státusz LEDek, gombok -> lehet külön kisebb nyákra kéne?, hangszóró (+alkatrészek), egyensúlyozáshoz forgó elem részei, bekötni dead man switchnek a távirányító vevőjét (szervókábel csatlakozók hozzá), tápok: NIMT hibrid + 3 cellás LiPo -> megnézni, hogy mi hány V-ot vár, tápmodulok (?), 2-3 szervónak helyet hagyni, LÁBKIOSZTÁS (processzor periféria készletét figyelembe venni)
+\item Dávid - szabályozási kör: beavatkozás meg mérés, 
+\begin{itemize}
+    \item 2 db PWM -> leprogramozni, kimenetet oszcilloszkóppal mérni, eltolt módszer; szervókat be kell hangolni, 1,5 ms-osat ráadni és utána pici lépésenként beállítani a középállást meg a végállásokat, minden szétszedés és összerakás után meg kell csinálni; figyelni a cutoffra; impulzus hosszba kódolt rcp alapjel, ez egy üzenetformátum, NEM PWM1
+\end{itemize}
+\item Marci - státuszinformációk vétele az autóról -> kliensoldali alkalmazás hozzá (pl: Python,.json,.yaml (FONTOS)); 
+\begin{itemize}
+    \item parancsértelmező alkalmazás írása STM32-re, 
+    \item paraméterek állítása c-ben (FONTOS); mikrokontroller: \item szenzorokból adatokat kinyerni, 
+    \item amíg nincs NYÁK a programozáshoz, nucleora rákötni őket, 
+    \item kinyerni a  nyers adatokat, 
+    \item perifériák élesztése
+\end{itemize}
+
+\item Virág - pontos legyen, hamar kell, 
+\begin{itemize}
+    \item PCB tervek: 
+    \item2 db vonalszenzor, 
+    \item4db táv szenzor,(megtervezni nem kell), 
+    \item hátsó kerék kormányzás meggondolandó, 
+    \item motor meghajtó kártya (megtervezni nem kell), 
+    \item központi modul, amire a nucleo, 
+    \item rádiós modul, vonalszenzorok bekötése meg, kommunikáció: vagy a raspberrys (figyelembe menni választani) debuggeres cucc vagy  
+    \item pedig a legegyszerűbb megoldás (Bluethoot 3.0 chip) -> pros vs cons, rákeresni, 
+    \item kijelző vagy státusz LEDek, gombok -> lehet külön kisebb nyákra kéne?, 
+    \item hangszóró (+alkatrészek), 
+    \item egyensúlyozáshoz forgó elem részei, 
+    \item bekötni dead man switchnek a távirányító vevőjét (szervókábel csatlakozók hozzá), 
+    \item tápok: NIMT hibrid + 3 cellás LiPo -> megnézni, hogy mi hány V-ot vár, tápmodulok (?), 2-3 szervónak helyet hagyni, LÁBKIOSZTÁS (processzor periféria készletét figyelembe venni)
+\end{itemize}
 \item Következő hétre: kapcsolási terv; azb összes perifériát megbeszélni
 \item Második hét: elrendezési terv
 \item Harmadik hét: huzalozási terv
