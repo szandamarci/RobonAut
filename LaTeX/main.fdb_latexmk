@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1727745464.48321 "main.aux" "main.bbl" "main" 1727745756.44122 0
+["bibtex main"] 1727869646.29575 "main.aux" "main.bbl" "main" 1727869648.44561 0
   "./sample.bib" 1727182340 253 0810be99547e6f3295f454437e22fee4 ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/alpha.bst" 1291864736 23907 a5f93555796fb564b924339521f10a7c ""
-  "main.aux" 1727745755 1378 083a4813a1232fcdddb1c9d59ffb76d4 "pdflatex"
+  "main.aux" 1727869647 1941 16961a576b0e15c5966d48b6a92f8dae "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1727745754.22982 "c:/BME/MSC_SEM_2/Robonaut/LaTeX/main.tex" "main.pdf" "main" 1727745756.44168 0
+["pdflatex"] 1727869646.67323 "c:/BME/MSC_SEM_2/RobonAutism/Robonaut/LaTeX/main.tex" "main.pdf" "main" 1727869648.44604 0
   "C:/Users/green/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727183743 82224 2c91ee70b6a3c187de62431dd24952ee ""
   "C:/Users/green/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1727182819 11548 a050ac0698a267b4d9cb257846a6b09a ""
   "C:/Users/green/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710600707 24233103 85b7e79be5a28c1087f2ca4fa7f9eea2 ""
@@ -69,6 +69,7 @@
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty" 1720346229 12726 67708fc852a887b2ba598148f60c3756 ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1601897756 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -94,13 +95,15 @@
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/green/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/BME/MSC_SEM_2/Robonaut/LaTeX/main.tex" 1727745753 6947 ec5bff504d1512d5bf82565df1c45103 ""
+  "IR_distance_characteristics.png" 1727869457 31510 397fd44d10f71e07c541cf56764a257a ""
+  "Interp.png" 1727869458 27503 282ab540a87eeed6a7b2adae736e25a6 ""
+  "c:/BME/MSC_SEM_2/RobonAutism/Robonaut/LaTeX/main.tex" 1727869458 7424 94bfce016fc58e1888a05a12adf767c1 ""
   "korondiP.jpg" 1727182646 4717 7e1e86ad8c4e611ed6d34a1149826779 ""
   "logo_v0.png" 1727744612 333477 3ee0b6a3e3842a3547d34d0e3196bb3d ""
-  "main.aux" 1727745755 1378 083a4813a1232fcdddb1c9d59ffb76d4 "pdflatex"
-  "main.bbl" 1727745464 226 9a4e9729832695964d01e2052d514aca "bibtex main"
-  "main.out" 1727745755 774 050bb424712bbd6087f9d0e8722fc2c6 "pdflatex"
-  "main.tex" 1727745753 6947 ec5bff504d1512d5bf82565df1c45103 ""
+  "main.aux" 1727869647 1941 16961a576b0e15c5966d48b6a92f8dae "pdflatex"
+  "main.bbl" 1727869646 226 9a4e9729832695964d01e2052d514aca "bibtex main"
+  "main.out" 1727869647 1055 bf8bc57d8a6ecd167a1f503a8652b973 "pdflatex"
+  "main.tex" 1727869458 7424 94bfce016fc58e1888a05a12adf767c1 ""
   (generated)
   "main.aux"
   "main.log"
